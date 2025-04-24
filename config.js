@@ -9,7 +9,7 @@ import moment from 'moment-timezone'
 
 //---------[ Añada los numeros a ser Propietario/a ]---------
 
-global.owner = [['5217121649714', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['51979334798'], ['595986172767'], ['5215656088756'], ['5217121649714']]
+global.owner = [['584142577312', 'ＰＲＯＰＩＥＴＡＲＩＯ', true], ['582129443583'], '], 584125014674'], ['']]
 global.mods = []
 global.prems = []
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
@@ -37,19 +37,19 @@ global.moment = moment
 
 //------------------------[ Stickers ]-----------------------------
 
-global.packname = 'KantuBot'
-global.author = 'CrxsMods'
+global.packname = '🌙𝙰𝚔𝚊𝚛𝚒•𝙱𝚘𝚝🌟'
+global.author = 'Jhon'
 
 //------------[ Versión | Nombre | cuentas ]------------
 
-global.wm = 'ᴋᴀɴᴛᴜ - ʙᴏᴛ' 
-global.botname = '𝐊𝐚𝐧𝐭𝐮 - 𝐁𝐨𝐭'
+global.wm = '🌙𝙰𝚔𝚊𝚛𝚒•𝙱𝚘𝚝🌟' 
+global.botname = '🌙𝙰𝚔𝚊𝚛𝚒•𝙱𝚘𝚝🌟'
 global.vs = '1.9.5'
-global.yt = 'https://www.youtube.com/@crxsmods'
-global.tiktok = 'tiktok.com/@rawleys_ofc'
-global.md = 'https://github.com/crxsmods'
-global.fb = 'wa.me/5217121649714'
-global.face = 'https://t.me/CrxsMods'
+global.yt = ''
+global.tiktok = ''
+global.md = ''
+global.fb = 'wa.me/584142577312'
+global.face = ''
 
 global.nna = 'https://chat.whatsapp.com/BO7qWoncCOgJfFNfUek89f' //Update
 global.nna2 = 'https://chat.whatsapp.com/FAwooQ3yBlx0PSsUtXpQup' //KantuBot update
