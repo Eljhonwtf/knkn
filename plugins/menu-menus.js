@@ -162,7 +162,7 @@ wm
 }
 text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-let pp = './menu.jpg'
+let pp = './media/Menu2.jpg'; //
 conn.sendMessage(m.chat, { text: text,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
