@@ -164,6 +164,14 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 
 let pp = './media/Menu2.jpg'; //
 conn.sendMessage(m.chat, { text: text,  
+console.log('Preparando para enviar el texto del menú...');
+conn.sendMessage(m.chat, { text: text, contextInfo: { ... } }, { quoted: m });
+console.log('Texto del menú enviado correctamente.');
+
+console.log('Preparando para enviar la imagen del menú...');
+conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, null);
+console.log('Imagen del menú enviada correctamente.');
+
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363371008200788@newsletter', 
