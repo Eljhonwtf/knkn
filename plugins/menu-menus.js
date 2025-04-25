@@ -183,6 +183,35 @@ mentionedJid:[m.sender],
 externalAdReply: {  
 showAdAttribution: true,  
 renderLargerThumbnail: true,  
+// Depuración antes de enviar el texto del menú
+console.log('Preparando para enviar el texto del menú...');
+conn.sendMessage(m.chat, { text: text, contextInfo: { 
+    forwardedNewsletterMessageInfo: { 
+        newsletterJid: '120363371008200788@newsletter', 
+        serverMessageId: '', 
+        newsletterName: 'Kantu Bot ✨️' 
+    },
+    forwardingScore: 9999999,  
+    isForwarded: true,   
+    mentionedJid:[m.sender],  
+    externalAdReply: {  
+        showAdAttribution: true,  
+        renderLargerThumbnail: true,  
+        title: `${name} 👋`,
+        body: wm,
+        containsAutoReply: true,  
+        mediaType: 1,   
+        thumbnail: imagen2, 
+        sourceUrl: [nna, nna2, nnaa].getRandom()
+    }
+}}, { quoted: m });
+console.log('Texto del menú enviado correctamente.');
+
+// Depuración antes de enviar la imagen del menú
+console.log('Preparando para enviar la imagen del menú...');
+conn.sendFile(m.chat, pp, 'menu.jpg', text.trim(), m, null, null);
+console.log('Imagen del menú enviada correctamente.');
+
 title: `${name} 👋`,
 body: wm,
 containsAutoReply: true,  
